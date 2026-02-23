@@ -48,10 +48,10 @@ span{
 ul {
     list-style: none;
     display: flex;
-    gap: 150px;
+    gap: 200px;
     margin: 0%;
     padding: 0%;
-    padding-left: 550px;
+    padding-left: 600px;
     font-size: medium;
     font-style: normal;
     font: bold;

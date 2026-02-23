@@ -391,6 +391,7 @@ footer h4{
 }
 @media (max-width: 760px){
     body{
+        align-items: center;
         font-weight: 100;
         font-size: medium;
         background-color: #fbfdf8;
@@ -416,6 +417,7 @@ footer h4{
     #About{
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
     .cards{
         flex-direction: column;

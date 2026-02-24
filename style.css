@@ -272,12 +272,8 @@ footer p {
 .delivery{
     display: flex;
     background-color: #f0f4fa;
-    gap: 20px;
-    padding: 20px;
-    
      padding-top: 40px;
      align-items: center;
-     gap: 30px;
 }
 .delivery h1,h4,h3{
     color: #136a6a;
@@ -366,6 +362,7 @@ footer p {
     .delivery{
         flex-direction: column;
         align-items: center;
+        gap: 10px;
     }
     .delivery-pic{
         width: 300px;

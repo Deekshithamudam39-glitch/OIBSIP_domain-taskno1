@@ -172,7 +172,7 @@ body {
     transform: translateY(-15px) scale(1.02);
 }
 
-.content, .content2, .content3, .content4 h1 {
+.content, .content2, .content3, .content4, .content5,h1 {
     font-size: 1.8rem;
     margin-bottom: 10px;
     color: #333;
@@ -264,7 +264,41 @@ footer p {
     font-weight: 500;
     letter-spacing: 1px;
 }
+.end{
+    text-align: center;
+    justify-content: center;
+}
 
+.delivery{
+    display: flex;
+    background-color: #f0f4fa;
+    gap: 20px;
+    padding: 20px;
+    
+     padding-top: 40px;
+     align-items: center;
+     gap: 30px;
+}
+.delivery h1,h4,h3{
+    color: #136a6a;
+}
+.delivery p{
+    color: #090a0c;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.delivery img{
+    width: 600px;
+    height: auto;
+}
+.delivery h3,
+.delivery p{
+    display: block;
+}
+.info{
+    margin: 10px;
+    gap: 10px;
+}
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
     .navbar {
